@@ -51,6 +51,17 @@ body {
     border-radius: 10px;
 }
 
+.resetButton {
+    background-color: black;
+    color: #FAF7F0;
+    font-weight: bold;
+    margin: 30px;
+    height: 40px;
+    width: 70px;
+    border-radius: 10px;
+    border-color: #FAF7F0;
+}
+
 button {
     cursor: pointer;
 }
