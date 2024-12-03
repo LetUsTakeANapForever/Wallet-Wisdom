@@ -1,0 +1,66 @@
+body {
+    background-color: #FFF5E4;
+}
+
+#heading {
+    font-weight: bold;
+    text-align: center;
+    margin: 35px;
+}
+
+.centerDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centerInput {
+    display: inline-block;
+}
+
+.incomeButton {
+    background-color: #6A9C89;
+    color: #FFFFFF;
+    margin: 30px;
+    height: 40px;
+    width: 70px;
+    border-radius: 10px;
+    border-color: unset;
+}
+
+.expenseButton {
+    background-color: #CD5C08;
+    color: #FFFFFF;
+    margin: 30px;
+    height: 40px;
+    width: 70px;
+    border-radius: 10px;
+    border-color: unset;
+}
+
+.displayValue {
+    margin: 0px;
+}
+
+.analyzeButton {
+    background-color: #FAF7F0;
+    font-weight: bold;
+    margin: 30px;
+    height: 40px;
+    width: 70px;
+    border-radius: 10px;
+}
+
+button {
+    cursor: pointer;
+}
+
+.redResult {
+    color: #CD5C08;
+    background-color: #FAF7F0;
+}
+
+.greenResult {
+    color: #6A9C89;
+    background-color: #FAF7F0;
+}

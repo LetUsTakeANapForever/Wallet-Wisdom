@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wallet Wisdom: Expense Analysis</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="heading">Expense Analysis</h1>
+    <div>
+        <div class="centerDiv">
+            <input id="valueInput" class="centerInput" type="text" >
+        </div>
+        <div class="centerDiv">
+            <div>
+                <button class="incomeButton" type="submit" onclick="addTotalIncome(parseFloat(valueInput.value))">Income</button>
+                <div class="centerDiv">
+                    <p id="incomeTotal" class="displayValue" style="color: #6A9C89;">Income: 0</p>
+                </div>
+            </div>
+            
+            <div>
+                <!-- <input> has value property but not <p>-->
+                <!-- valueInput.value is a string -->
+                <button class="expenseButton" type="submit" onclick="addTotalExpense(parseFloat(valueInput.value))">Expense</button>
+                <div class="centerDiv">
+                    <p id="expenseTotal" class="displayValue" style="color: #CD5C08;">Expense: 0</p>
+                </div>
+            </div>
+        </div>
+        <div class="centerDiv">
+            <button id= "analyzeBT" type="submit" class="analyzeButton" onclick="analyze()">Analyze</button>
+        </div>
+        <div class="centerDiv">
+            <h3 id="result"></h3>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
