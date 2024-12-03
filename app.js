@@ -5,7 +5,7 @@ function analyze() {
 
     if (income <= expense) {
         resultElement.className = "redResult";
-        resultElement.innerHTML = "Financial Strategy Needed: Expenses Outweigh Income";
+        resultElement.innerHTML = "Financial Strategy Needed: Expenses Outweigh/Equal Income";
     }else {
         resultElement.className = "greenResult";
         resultElement.innerHTML = "Result : Financially Healthy. Income Exceeds Total Expenses";
@@ -28,4 +28,11 @@ function addTotalExpense(moneyVal) {
         currentExpense += moneyVal;
         expenseElement.innerHTML = "Expense: " + currentExpense.toFixed(2);
     }
+}
+
+function reset() {
+    document.getElementById("valueInput").value = "";
+    document.getElementById("incomeTotal").innerHTML = "Income: 0";
+    document.getElementById("expenseTotal").innerHTML = "Expense: 0";
+    document.getElementById("result").innerHTML = "";
 }
