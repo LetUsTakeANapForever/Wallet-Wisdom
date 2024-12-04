@@ -15,4 +15,4 @@ Follow these steps to set up and use the application:
 - A modern web browser.
 
 ### Link
-
+https://wallet-wisdom.netlify.app
