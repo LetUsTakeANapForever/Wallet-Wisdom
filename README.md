@@ -10,7 +10,7 @@ A simple and intuitive web application designed to help users aware of their fin
 
 Follow these steps to set up and use the application:
 
-### Prerequisites
+### Prerequisite
 
 - A modern web browser.
 
