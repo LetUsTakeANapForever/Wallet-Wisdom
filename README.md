@@ -3,8 +3,8 @@
 A simple and intuitive web application designed to help users aware of their financial health.
 ## Features
 
-- **Expense/Income Calculation**
-- **Financial Analysis**
+- Expense/Income Calculation
+- Financial Analysis
 
 ## Getting Started
 
